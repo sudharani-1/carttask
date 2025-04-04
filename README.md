@@ -1,12 +1,20 @@
-# React + Vite
+# Shopping Cart Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a ReactJS application that fetches product data from the Fake Store API and allows users to add products to the cart through a modal interface.
 
-Currently, two official plugins are available:
+## Features:
+- Fetch products from Fake Store API
+- Display products in a responsive grid
+- Add products to the cart with a modal view
+- Alert user if the product is already in the cart
+- Remove items from the cart
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack:
+- ReactJS
+- Tailwind CSS
+- JavaScript
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## To Run:
+1. Clone the repository.
+2. Run `npm install` to install dependencies.
+3. Run `npm start` to start the development server.
